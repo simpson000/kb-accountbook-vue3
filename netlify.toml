@@ -1,0 +1,7 @@
+[build]
+  base    = "kb-accountbook-vu3/kb-accountbook-vu3" # 실제 빌드 디렉토리로 설정
+  publish = "dist"
+  command = "npm run build"
+
+[build.environment]
+  NODE_ENV = "production"
