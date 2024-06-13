@@ -1,6 +1,6 @@
 [build]
-  base    = "kb-accountbook-vu3/kb-accountbook-vu3" # 실제 빌드 디렉토리 경로
-  publish = "kb-accountbook-vu3/kb-accountbook-vu3/dist" # 빌드 결과물이 있는 디렉토리
+  base = "kb-accountbook-vu3/kb-accountbook-vu3" # base 디렉토리를 올바르게 설정
+  publish = "dist"
   command = "npm run build"
 
 [build.environment]
